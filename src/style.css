@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+
+:root{
+    --color-primary: #ffc500;
+font-family: 'montserrat', sans-serif;
+font-size: 16px;
+--default-padding:1rem;
+}
+
+
+
+body{
+    box-sizing: border-box;
+    padding-top: 7.75rem;
+    margin: 0;
+
+}
+
+
+nav{
+    position: fixed;
+    background-color: #000;
+    align-items: center;
+    color: white;
+    float: right;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    /* padding: 0 3.125rem; */
+    padding: 0 var(--default-padding);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 7.75rem;
+    z-index: 1;
+   
+
+}
+
+.logo{
+    font-size:2.375rem ;
+    font-weight: 900;
+    text-align: right;
+    line-height: 1.2ch;
+    
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.on{
+    color: var(--color-primary);
+    
+}
+.evento{
+font-size: 0.875rem;
+    font-weight: 300;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.menu-list{
+   
+    padding-left: 0;
+    justify-self: end;
+   
+}
+
+.menu-list li a{
+  
+    color: white;
+    font-weight: 300;
+   
+}
+
+.menu-list li{
+   font-size: 0.875rem;
+    padding: 0 1.5625rem;
+    text-transform: uppercase;
+    list-style: none;
+}
+.list{
+   display: flex; 
+    padding-right: 3.125rem;
+}
+
+
+
+.menu-list a:hover{
+    
+   color: var(--color-primary);
+}
+
+
+                                      /* header */
+
+
+
+header{
+    height: calc(100vh - 7.75rem);
+    padding: var(--default-padding);
+    background-color: #000;
+    color: white;
+    position: relative;
+    
+}
+
+.header-image-banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header-content{
+    position: absolute;
+    top: 100px;
+    left: 50vw;
+}
+
+.header-content h6{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+}
+.proximo{
+    
+    color: var(--color-primary);
+}
+
+
+.header-content h2{
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    line-height: 100px;
+}
+
+.header-content h2 span{
+    color: var(--color-primary);
+}
+
+.header-content h2 span{
+    display: block;
+}
+
+.button-1{
+    cursor: pointer;
+    background-color: ;
+    padding: 15px 30px;
+    color: var(--color-primary);
+    border: 2px solid #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: unset;
+    border-radius: 5rem;
+    transition: 0.5s all ease-in-out ;
+}
+
+.button-1:hover{
+    background-color: var(--color-primary);
+    color: white;
+    border: var(--color-primary);
+    
+}
+
+
+
+
+
+
+
