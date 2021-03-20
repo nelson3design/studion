@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css');
 
 
 :root{
@@ -50,23 +54,22 @@ ul{
 .navbar__container{
     align-items: center;
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 9fr;
-
-    width: 100vw;
     height: 7.75rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
   
 }
 
 .logo{
-    font-size:2.375rem ;
+    font-size: .9375rem;
     font-weight: 900;
     text-align: right;
     line-height: 1.2ch;
-    
+    color: white;
     align-items: center;
     justify-content: center;
-    
     
 }
 
@@ -75,13 +78,34 @@ ul{
     
 }
 
-
-.evento{
-    font-size: 0.875rem;
-    font-weight: 300;
-    float: right;
+.logo h1{
+    position: relative;
+    padding: 0;
+  cursor: pointer;
+    
 }
 
+.evento{
+    font-size: 0.625rem;
+    font-weight: 300;
+  left: 0;
+  right: 0;
+  display: block;
+    top: 18px;
+    position: absolute;
+   
+    text-align: end;
+}
+.evento2{
+    font-size: 0.625rem;
+    font-weight: 300;
+  left: 0;
+  right: 0;
+  display: block;
+    top: 18px;
+    position: absolute;
+    text-align: end;
+}
 
 a{
     text-decoration: none;
@@ -211,7 +235,8 @@ header{
 .button-1:hover{
     background-color: var(--color-primary);
     color: white;
-    border-color: var(--color-primary);
+    border-color: white;
+    box-shadow: 0 10px 10px 1px rgb(119, 118, 74);
     
 }
 
@@ -321,6 +346,7 @@ header{
     color: var(--color-copy);
     border-color: var(--color-primary);
     background-color:unset;
+    box-shadow: 0 10px 10px 1px black;
 }
 
 
@@ -387,8 +413,10 @@ header{
 
 .button-3:hover{
     color: white;
-    border-color: var(--color-primary);
+    border-color: var(--color-copy);
     background-color: var(--color-primary);
+    box-shadow: 0 10px 10px 1px black;
+    
 }
 
 
@@ -397,16 +425,21 @@ header{
                                    /* footer */
 
 
+
 .footer{
+    background-color: black;
+}
+
+
+.footer3{
     height: 7.75rem;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-between;
     align-items: center;
+}  
 
-    
-   
-}                                   
+
 .footer-2{
     height: 7.75rem;
     background-color: black;
@@ -414,29 +447,117 @@ header{
 
 
 
-.logo-2{
-    font-size:15px ;
-    font-weight: 900;
-    text-align: right;
-    line-height: 1.2ch;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
+                               /* formulario */
 
-.on-2{
-    color: var(--color-primary);
-    
+
+.formulario{
+     display: flex;
+     justify-content: stretch;
+     padding: 0 0 0 25px;
+     align-items: center;
 }
 
 
-.evento-2{
+
+.formulario label{
+    color: #fff;
     font-size: 10px;
-    font-weight: 300;
+  text-align: center;
+  line-height: 12px;
+}  
+
+
+.formulario label span{
     display: block;
-    position: relative;
-    top: 8px;
+   justify-content: center;
+    margin: 0 auto;
+    
 }
+
+.formulario input{
+    margin: 0 0 0 25px;
+    height: 40px;
+    width: 250px;
+    background: var(--color-primary);
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+
+
+
+.formulario button{
+    border: none;
+    height: 42px;
+    width: 42px;
+}
+
+
+#image{
+    width: 20px;
+    height: 20px;
+   margin: o auto; 
+}
+
+
+                   /* icones */
+
+
+.icones li{
+    padding: 0 0 0 20px;
+   
+}
+.icones li i{
+    color: white;
+  
+}
+
+
+#image-icon{
+    width: 33px;
+    height: 33px;
+    
+    border-radius: 50%;
+    
+}
+
+
+
+                                /* todos os direitos reservados */
+
+
+
+
+.fim{
+background-color: black;
+height: 50px;
+}
+
+
+.fim p{
+color: white;
+text-align: center;
+}
+
+
+.linha{
+    background-color: violet;
+    margin-top: 0;
+}
+
+
+
+.fim p span{
+color: var(--color-primary);
+}
+
+
+.linha{
+    background-color: violet;
+    margin-top: 0;
+}
+
 
