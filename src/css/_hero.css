@@ -1,0 +1,135 @@
+@import "./css/_navibar-contato.css";
+
+.hero {
+  height: 34.625rem;
+  position: relative;
+  background-color: brown;
+  background-image: url(../images/banner-2.png);
+  background-size: cover;
+
+  margin-top: -8rem;
+}
+
+.hero__copy {
+  margin: 0;
+  width: 50%;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.hero__copy h2 {
+  color: var(--color-primary);
+  font-size: 7.5rem;
+
+  letter-spacing: -0.3125rem;
+  padding: 0;
+}
+
+.hero__copy p {
+  color: #ccc;
+  font-size: 0.9375rem;
+  line-height: 1.875rem;
+
+  width: 65%;
+  padding: 5rem 0;
+}
+
+/* contato-formulario */
+
+.contato-form {
+  background-color: brown;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 550px;
+}
+
+.formu {
+  background-color: black;
+  height: 100%;
+  display: block;
+}
+
+.formu-content h3,
+.formu-content label,
+.formu-content input,
+.formu-content,
+.button-4 {
+  display: block;
+  color: white;
+  width: 400px;
+}
+.formu-content {
+  margin: 0 115px;
+  padding: 70px 0;
+}
+
+.formu-content input {
+  width: 400px;
+  border: none;
+  background: none;
+  border-bottom: 2px solid white;
+}
+
+.formu-content label {
+  padding: 30px 0;
+}
+
+.formu-content h3 {
+}
+
+.button-4 {
+  margin: 30px 0;
+  width: 150px;
+  display: block;
+  float: right;
+  background-color: var(--color-primary);
+  border: none;
+}
+
+/* contato-endereco */
+
+.info {
+  background-color: white;
+  height: 100%;
+}
+
+.info-content {
+  color: black;
+  width: 370px;
+  height: 250px;
+  margin: 0 0 0 310px;
+  padding: 60px 0;
+}
+
+.info-content span {
+  display: block;
+  padding: 5px 0;
+}
+
+.info-content h3:last-of-type {
+  padding-top: 70px;
+}
+
+.info-content h3:first-of-type {
+  padding-bottom: 16px;
+}
+
+.info-content span:last-of-type {
+  padding-top: 30px;
+  display: flex;
+}
+
+.info-content span i {
+  color: var(--color-primary);
+  padding: 0 10px;
+}
+
+/* mapa */
+#gmap_canvas {
+  height: 570px;
+}
+.section-mapa {
+  height: 570px;
+}

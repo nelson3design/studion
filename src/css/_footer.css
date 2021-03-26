@@ -1,0 +1,115 @@
+/* footer */
+
+
+
+
+.footer {
+  background-color: black;
+}
+
+.footer3 {
+  height: 7.75rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-2 {
+  height: 7.75rem;
+  background-color: black;
+}
+
+
+
+
+/* formulario */
+
+.formulario {
+  display: flex;
+  justify-content: stretch;
+  padding: 0 0 0 25px;
+  align-items: center;
+}
+
+.formulario label {
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  line-height: 12px;
+}
+
+.formulario label span {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.formulario input {
+  margin: 0 0 0 25px;
+  height: 40px;
+  width: 250px;
+  background: var(--color-primary);
+  border: none;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.formulario button {
+  border: none;
+  height: 40px;
+  width: 40px;
+}
+
+.sumit:hover {
+  cursor: pointer;
+  background-color: rgb(0, 153, 255);
+}
+
+#image:hover {
+  cursor: pointer;
+}
+
+/* icones */
+
+.icones li {
+  padding: 0 0 0 20px;
+}
+.icones li a:visited,
+.icones li a:visited {
+  color: white;
+}
+
+.fa-twitter:before,
+.fa-twitter:visited,
+.fa-twitter:active {
+  color: black;
+}
+
+#image-icon {
+  width: 33px;
+  height: 33px;
+
+  border-radius: 50%;
+}
+
+/* todos os direitos reservados */
+
+.fim {
+  background-color: black;
+  height: 50px;
+}
+
+.fim p {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+.fim p span {
+  color: var(--color-primary);
+}
+

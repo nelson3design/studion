@@ -1,0 +1,192 @@
+/* header */
+
+.header-1 {
+  /* height: calc(100vh - 7.75rem); */
+  height: 100vh;
+  padding: var(--default-padding);
+  background-color: #000;
+  color: white;
+  position: relative;
+}
+
+.header-image-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.banner {
+  float: left;
+  position: relative;
+  right: 350px;
+}
+
+.header-content {
+  position: absolute;
+  top: 6.25rem;
+  left: 45vw;
+}
+
+.header-content h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1875rem;
+}
+.proximo {
+  color: var(--color-primary);
+}
+
+.header-content h2 {
+  font-size: 6.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  line-height: 6.25rem;
+}
+
+.header-content h2 span {
+  color: var(--color-primary);
+}
+
+.header-content h2 span {
+  display: block;
+}
+
+
+/* section-1 */
+
+
+#counter {
+  background-color: var(--color-primary);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.counter__container {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  place-items: center;
+  padding: 4.375rem;
+}
+
+.counter__container h3 {
+  font-size: 2.1875rem;
+  line-height: 20px;
+}
+
+.counter__container h3 small {
+  display: block;
+  font-size: 1.25rem;
+}
+
+.counter__container li {
+  align-items: center;
+}
+
+
+
+
+/* section-2 */
+
+.institutional {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3.125rem;
+  align-items: center;
+  padding: 4.375rem var(--default-padding);
+}
+
+.institutional__image {
+  max-width: 570px;
+}
+
+.institutional__copy {
+  padding: 0 1.875rem;
+}
+
+.institutional__copy h6 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.institutional__copy h4 {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+
+.institutional__copy__h4__consec {
+  display: block;
+}
+
+
+.institutional p {
+  font-size: 1.0625rem;
+  line-height: 1.6875rem;
+  font-family: "roboto" sans-serif;
+  margin-bottom: 0;
+  margin-bottom: 2.5rem;
+}
+
+
+/* section-3 */
+
+
+
+.quote {
+  background-image: url(../images/parallax.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  background-position: center;
+}
+
+.quote-content {
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 0fr;
+  place-items: end;
+  align-items: center;
+}
+
+.quote-list {
+  background-color: white;
+  padding: 5.625rem 4.375rem;
+}
+
+
+.quote-list h6 {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+  line-height: 1.4375rem;
+  max-width: 52ch;
+  margin: 0;
+}
+
+.quote-list h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: -0.1875rem;
+  text-transform: uppercase;
+  color: black;
+  line-height: 5rem;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.quote-list h2 span {
+  display: block;
+  color: var(--color-primary);
+}
+
+
