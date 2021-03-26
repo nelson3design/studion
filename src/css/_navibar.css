@@ -1,0 +1,99 @@
+.navbar {
+  position: fixed;
+  z-index: 1;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar__container {
+  align-items: center;
+  height: 7.75rem;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* logos */
+
+.logo {
+  font-weight: 900;
+  text-align: right;
+  line-height: 1.2ch;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-1 {
+  text-align: right;
+  line-height: 1.2ch;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.on {
+  color: var(--color-primary);
+}
+
+.logo h1 {
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+  margin: 0;
+  font-size: 2.375rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.logo-1 h5 {
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+  margin: 0;
+  font-size: 2.375rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.evento {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  left: 0;
+  right: 0;
+  display: block;
+  top: 26px;
+  position: absolute;
+  text-align: end;
+}
+
+/* menu */
+
+.menu-list {
+  padding-left: 0;
+  justify-self: end;
+}
+
+.menu-list li a {
+  color: white;
+  font-weight: 300;
+}
+
+.menu-list li {
+  font-size: 0.875rem;
+  padding: 0 0 0 3.125rem;
+  text-transform: uppercase;
+}
+
+.menu-list li .active {
+  color: var(--color-primary);
+}
+
+.menu-list a:hover {
+  color: var(--color-primary);
+}
