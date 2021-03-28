@@ -17,7 +17,15 @@
 @import "./css/_buttons.css";
 
 @import "./css/_hero.css";
+
 @import "./css/_navibar-contato.css";
+
+@import "./css/_empresa.css";
+
+@import "./css/_depoimento.css";
+
+@import "./css/_evento.css";
+@import "./css/_galeria.css";
 
 .navbar {
   position: absolute;
