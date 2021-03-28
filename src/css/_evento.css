@@ -1,0 +1,197 @@
+@import "./css/_navibar-contato.css";
+
+.evento-1 {
+  height: 34.625rem;
+  position: relative;
+  background-color: brown;
+  background-image: url(../images/banner-4.png);
+  background-size: cover;
+
+  margin-top: -8rem;
+}
+
+.hero__copy {
+  margin: 0;
+  width: 50%;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.hero__copy h2 {
+  color: var(--color-primary);
+  font-size: 7.5rem;
+
+  letter-spacing: -0.3125rem;
+  padding: 0;
+}
+
+.hero__copy p {
+  color: #ccc;
+  font-size: 0.9375rem;
+  line-height: 1.875rem;
+
+  width: 65%;
+  padding: 5rem 0;
+}
+
+/* shows */
+.shows {
+}
+.show {
+  height: 1555px;
+  background-color: white;
+}
+.btn {
+  width: 215px;
+  height: 52px;
+  background-color: var(--color-primary);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.btn-1 {
+  margin-top: 130px;
+}
+
+.brazuca-1 {
+  height: 235px;
+
+  display: flex;
+  gap: 54px;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  justify-content: space-between;
+  position: relative;
+  top: 90px;
+}
+.images-b-1 {
+  width: 25%;
+}
+.b-1-content h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  letter-spacing: 2px;
+  margin: 35px 0;
+}
+
+.b-1-content span {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.b-1-content i {
+  color: var(--color-primary);
+  padding: 0 5px 0 0;
+}
+
+.b-1-content p {
+  color: black;
+  font-size: 12px;
+  margin: 30px 0;
+  width: 53ch;
+}
+
+.brazuca-2 {
+  height: 290px;
+
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 90px;
+  padding-top: 50px;
+}
+
+.brazuca-3 {
+  height: 590px;
+  background-color: #f5f5f5;
+  position: relative;
+  top: 90px;
+  padding-top: 100px;
+  width: 1200px;
+  padding: 50px 30px 0px 30px;
+  margin: 0 auto;
+}
+
+.brazuca-3-1 {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.b-3-endereco {
+  width: 745px;
+  float: right;
+  margin-top: 60px;
+}
+
+.rua {
+  display: block;
+  font-size: 15px;
+  letter-spacing: 0px;
+  text-transform: none;
+  margin: 5px 43px;
+}
+.ende-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 0 0 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.ende-1 i {
+  color: var(--color-primary);
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.ende-1 h2 {
+  font-size: 15px;
+  color: var(--color-primary);
+}
+
+.brazuca-4 {
+  height: 284px;
+
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 90px;
+  padding-top: 50px;
+}
+
+.bar-1 {
+  position: relative;
+  top: 90px;
+}
+
+.bar-2 {
+  position: relative;
+  top: 90px;
+}
+.bar-3 {
+  position: relative;
+  top: 90px;
+}
+.bar-4 {
+  position: relative;
+  top: 90px;
+}
+hr {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(110, 110, 110);
+}

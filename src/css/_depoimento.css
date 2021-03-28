@@ -1,0 +1,149 @@
+@import "./css/_navibar-contato.css";
+
+.depo {
+  height: 34.625rem;
+  position: relative;
+  background-color: brown;
+  background-image: url(../images/banner-5.png);
+  background-size: cover;
+
+  margin-top: -8rem;
+}
+
+.hero-4__copy {
+  margin: 0;
+  width: 50%;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.hero-4__copy h2 {
+  color: var(--color-primary);
+  font-size: 5.5rem;
+
+  letter-spacing: -0.3125rem;
+  padding: 0;
+}
+
+.hero-4__copy p {
+  color: #ccc;
+  font-size: 0.9375rem;
+  line-height: 1.875rem;
+
+  width: 65%;
+  padding: 5rem 0;
+}
+
+.hero-4__copy h3 {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  padding: 0;
+}
+/* slide */
+
+.slider-1 {
+  background-color: var(--color-primary);
+  height: 780px;
+  padding-top: 30px;
+}
+.slider {
+  width: 1140px;
+  height: 620px;
+  max-width: 100%;
+
+  margin: 0px auto;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#slide1:checked ~ .controls label:nth-last-child(1),
+#slide2:checked ~ .controls label:nth-last-child(3),
+#slide3:checked ~ .controls label:nth-last-child(2) {
+  background-image: url(../images/left.png);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  display: block;
+  float: right;
+  position: relative;
+  top: -350px;
+  left: 20px;
+}
+
+#slide1:checked ~ .controls label:nth-child(2),
+#slide2:checked ~ .controls label:nth-child(3),
+#slide3:checked ~ .controls label:nth-child(1) {
+  background-image: url(../images/left.png);
+  background-repeat: repeat;
+  transform: scale(-1);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  display: block;
+  float: left;
+  right: 20px;
+  position: relative;
+  top: -350px;
+}
+
+#slide1:checked ~ .bullets label:nth-child(1),
+#slide2:checked ~ .bullets label:nth-child(2),
+#slide3:checked ~ .bullets label:nth-child(3) {
+  background-color: black;
+}
+.bullets label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #ccc;
+
+  position: relative;
+  top: 0px;
+  left: 320px;
+  margin: 0 15px;
+}
+
+img {
+  width: 100%;
+
+  padding: 0;
+  align-items: center;
+}
+
+.overflow {
+  width: 100%;
+  overflow: hidden;
+}
+.slides .slide {
+  width: 25%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+
+#slide1:checked ~ .slides .inner {
+  margin-left: 0;
+}
+#slide2:checked ~ .slides .inner {
+  margin-left: -100%;
+}
+#slide3:checked ~ .slides .inner {
+  margin-left: -200%;
+}
+
+.slides .inner {
+  width: 400%;
+  line-height: 0;
+}

@@ -1,0 +1,265 @@
+@import "./css/_navibar-contato.css";
+
+.empresa {
+  height: 34.625rem;
+  position: relative;
+  background-color: brown;
+  background-image: url(../images/banner-3.png);
+  background-size: cover;
+
+  margin-top: -8rem;
+}
+
+.hero__copy {
+  margin: 0;
+  width: 50%;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.hero__copy h2 {
+  color: var(--color-primary);
+  font-size: 7.5rem;
+
+  letter-spacing: -0.3125rem;
+  padding: 0;
+}
+
+.hero__copy p {
+  color: #ccc;
+  font-size: 0.9375rem;
+  line-height: 1.875rem;
+
+  width: 65%;
+  padding: 5rem 0;
+}
+
+/* sections */
+.foto-homem {
+  background-color: white;
+  width: 100vw;
+  height: 760px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.texto {
+  width: 450px;
+
+  margin-left: 600px;
+}
+
+.homem {
+  width: 700px;
+  height: 100%;
+  margin-right: 600px;
+  position: relative;
+}
+
+.care-image {
+  display: flex;
+
+  /* background-color: blueviolet; */
+  height: 100%;
+}
+
+/* section-2 */
+
+.logos {
+  background-color: var(--color-primary);
+}
+
+.logos-1 {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.logos-1 h5 {
+  padding: 70px 0;
+  font-size: 23px;
+}
+
+.images {
+  background-image: url(../images/images.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position-x: -200px;
+  background-position-y: 60px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.care {
+  display: flex;
+  position: relative;
+}
+
+.care-2 {
+  width: 490px;
+  height: 490px;
+  right: 200px;
+  border: 3px solid var(--color-primary);
+  left: 190px;
+  position: absolute;
+  top: 240px;
+}
+
+.care-3 {
+  width: 265px;
+  height: 265px;
+  position: absolute;
+  border: 3px solid var(--color-primary);
+  top: 30px;
+  left: 460px;
+}
+
+.care-1 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background-color: var(--color-primary);
+  border: 3px solid var(--color-primary);
+  left: 150px;
+  top: 450px;
+}
+
+.texto h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 120px 0 60px 0;
+}
+
+.texto span {
+  font-size: 15px;
+}
+
+.texto p {
+  margin: 46px 0;
+  font-size: 15px;
+}
+
+/* section-3 */
+
+.video {
+  width: 100vw;
+  height: 650px;
+  align-items: center;
+}
+
+.video-1 {
+}
+
+.video-content {
+  height: 100%;
+  width: 100%;
+  margin: 80px 65px;
+}
+
+[controls] {
+  background: none;
+  border: none;
+  height: 570px;
+  width: 1012px;
+}
+
+/* contato-formulario */
+
+.contato-form {
+  background-color: brown;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 550px;
+}
+
+.formu {
+  background-color: black;
+  height: 100%;
+  display: block;
+}
+
+.formu-content h3,
+.formu-content label,
+.formu-content input,
+.formu-content,
+.button-4 {
+  display: block;
+  color: white;
+  width: 400px;
+}
+.formu-content {
+  margin: 0 115px;
+  padding: 70px 0;
+}
+
+.formu-content input {
+  width: 400px;
+  border: none;
+  background: none;
+  border-bottom: 2px solid white;
+}
+
+.formu-content label {
+  padding: 30px 0;
+}
+
+.formu-content h3 {
+}
+
+.button-4 {
+  margin: 30px 0;
+  width: 150px;
+  display: block;
+  float: right;
+  background-color: var(--color-primary);
+  border: none;
+}
+
+/* contato-endereco */
+
+.info {
+  background-color: white;
+  height: 100%;
+}
+
+.info-content {
+  color: black;
+  width: 370px;
+  height: 250px;
+  margin: 0 0 0 310px;
+  padding: 60px 0;
+}
+
+.info-content span {
+  display: block;
+  padding: 5px 0;
+}
+
+.info-content h3:last-of-type {
+  padding-top: 70px;
+}
+
+.info-content h3:first-of-type {
+  padding-bottom: 16px;
+}
+
+.info-content span:last-of-type {
+  padding-top: 30px;
+  display: flex;
+}
+
+.info-content span i {
+  color: var(--color-primary);
+  padding: 0 10px;
+}
+
+/* mapa */
+#gmap_canvas {
+  height: 570px;
+}
+.section-mapa {
+  height: 570px;
+}
