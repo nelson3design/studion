@@ -18,22 +18,18 @@
   box-shadow: 0 10px 10px 1px rgb(119, 118, 74);
 }
 
-
 .button-2 {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: white;
 }
 
-
-
 .button-2:hover {
   color: var(--color-copy);
   border-color: var(--color-primary);
   background-color: unset;
-  box-shadow: 0 10px 10px 1px black;
+  box-shadow: 0 0.625rem 0.625rem 0.0625rem black;
 }
-
 
 .button-3 {
   background-color: unset;
@@ -45,5 +41,5 @@
   color: white;
   border-color: var(--color-copy);
   background-color: var(--color-primary);
-  box-shadow: 0 10px 10px 1px black;
+  box-shadow: 0 0.625rem 0.625rem 0.0625rem black;
 }

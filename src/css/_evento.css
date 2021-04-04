@@ -40,17 +40,17 @@
 .shows {
 }
 .show {
-  height: 1555px;
+  height: 97.1875rem;
   background-color: white;
 }
 .btn {
-  width: 215px;
-  height: 52px;
+  width: 13.4375rem;
+  height: 3.25rem;
   background-color: var(--color-primary);
-  border-radius: 50px;
+  border-radius: 3.125rem;
   border: none;
   color: white;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -59,68 +59,68 @@
   cursor: pointer;
 }
 .btn-1 {
-  margin-top: 130px;
+  margin-top: 8.125rem;
 }
 
 .brazuca-1 {
-  height: 235px;
+  height: 14.6875rem;
 
   display: flex;
-  gap: 54px;
+  gap: 3.375rem;
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr; */
   justify-content: space-between;
   position: relative;
-  top: 90px;
+  top: 5.625rem;
 }
 .images-b-1 {
   width: 25%;
 }
 .b-1-content h2 {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-transform: uppercase;
   color: var(--color-primary);
-  letter-spacing: 2px;
-  margin: 35px 0;
+  letter-spacing: 0.75rem;
+  margin: 2.1875rem 0;
 }
 
 .b-1-content span {
   color: black;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }
 
 .b-1-content i {
   color: var(--color-primary);
-  padding: 0 5px 0 0;
+  padding: 0 0.3125rem 0 0;
 }
 
 .b-1-content p {
   color: black;
-  font-size: 12px;
-  margin: 30px 0;
+  font-size: 0.75rem;
+  margin: 1.875rem 0;
   width: 53ch;
 }
 
 .brazuca-2 {
-  height: 290px;
+  height: 18.125rem;
 
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 90px;
-  padding-top: 50px;
+  top: 5.625rem;
+  padding-top: 3.125rem;
 }
 
 .brazuca-3 {
-  height: 590px;
+  height: 36.875rem;
   background-color: #f5f5f5;
   position: relative;
-  top: 90px;
-  padding-top: 100px;
-  width: 1200px;
-  padding: 50px 30px 0px 30px;
+  top: 5.625rem;
+  padding-top: 6.25rem;
+  width: 75rem;
+  padding: 3.125rem 1.875rem 0 1.875rem;
   margin: 0 auto;
 }
 
@@ -131,67 +131,66 @@
 }
 
 .b-3-endereco {
-  width: 745px;
+  width: 46.5625rem;
   float: right;
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .rua {
   display: block;
-  font-size: 15px;
-  letter-spacing: 0px;
+  font-size: 0.9375rem;
   text-transform: none;
-  margin: 5px 43px;
+  margin: 0.3125rem 2.6875rem;
 }
 .ende-1 {
   display: flex;
   justify-content: space-between;
-  margin: 45px 0 0 0;
-  letter-spacing: 2px;
+  margin: 2.8125rem 0 0 0;
+  letter-spacing: 0.125rem;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .ende-1 i {
   color: var(--color-primary);
-  font-size: 30px;
-  padding-right: 20px;
+  font-size: 1.875rem;
+  padding-right: 1.25rem;
 }
 
 .ende-1 h2 {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: var(--color-primary);
 }
 
 .brazuca-4 {
-  height: 284px;
+  height: 17.75rem;
 
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 90px;
-  padding-top: 50px;
+  top: 5.625rem;
+  padding-top: 3.125rem;
 }
 
 .bar-1 {
   position: relative;
-  top: 90px;
+  top: 5.625rem;
 }
 
 .bar-2 {
   position: relative;
-  top: 90px;
+  top: 5.625rem;
 }
 .bar-3 {
   position: relative;
-  top: 90px;
+  top: 5.625rem;
 }
 .bar-4 {
   position: relative;
-  top: 90px;
+  top: 5.625rem;
 }
 hr {
-  width: 1200px;
+  width: 75rem;
   margin: 0 auto;
   background-color: rgb(110, 110, 110);
 }

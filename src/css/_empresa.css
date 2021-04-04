@@ -13,7 +13,6 @@
 .hero__copy {
   margin: 0;
   width: 50%;
-
   position: absolute;
   bottom: 0;
   right: 0;
@@ -22,7 +21,6 @@
 .hero__copy h2 {
   color: var(--color-primary);
   font-size: 7.5rem;
-
   letter-spacing: -0.3125rem;
   padding: 0;
 }
@@ -31,7 +29,6 @@
   color: #ccc;
   font-size: 0.9375rem;
   line-height: 1.875rem;
-
   width: 65%;
   padding: 5rem 0;
 }
@@ -40,29 +37,26 @@
 .foto-homem {
   background-color: white;
   width: 100vw;
-  height: 760px;
+  height: 47.5rem;
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
 }
 
 .texto {
-  width: 450px;
-
-  margin-left: 600px;
+  width: 28.125rem;
+  margin-left: 37.5rem;
 }
 
 .homem {
-  width: 700px;
+  width: 43.75rem;
   height: 100%;
-  margin-right: 600px;
+  margin-right: 37.5rem;
   position: relative;
 }
 
 .care-image {
   display: flex;
-
-  /* background-color: blueviolet; */
   height: 100%;
 }
 
@@ -74,20 +68,20 @@
 
 .logos-1 {
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
 }
 
 .logos-1 h5 {
-  padding: 70px 0;
-  font-size: 23px;
+  padding: 4.375rem 0;
+  font-size: 1.4375rem;
 }
 
 .images {
   background-image: url(../images/images.png);
   background-repeat: no-repeat;
   background-size: 150%;
-  background-position-x: -200px;
-  background-position-y: 60px;
+  background-position-x: -12.5rem;
+  background-position-y: 3.75rem;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -99,54 +93,54 @@
 }
 
 .care-2 {
-  width: 490px;
-  height: 490px;
-  right: 200px;
-  border: 3px solid var(--color-primary);
-  left: 190px;
+  width: 30.625rem;
+  height: 30.625rem;
+  right: 12.25rem;
+  border: 0.1875rem solid var(--color-primary);
+  left: 11.875rem;
   position: absolute;
-  top: 240px;
+  top: 15rem;
 }
 
 .care-3 {
-  width: 265px;
-  height: 265px;
+  width: 16.5625rem;
+  height: 16.6525rem;
   position: absolute;
-  border: 3px solid var(--color-primary);
-  top: 30px;
-  left: 460px;
+  border: 0.1875rem solid var(--color-primary);
+  top: 1.875rem;
+  left: 28.75rem;
 }
 
 .care-1 {
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   position: absolute;
   background-color: var(--color-primary);
-  border: 3px solid var(--color-primary);
-  left: 150px;
-  top: 450px;
+  border: 0.1875rem solid var(--color-primary);
+  left: 9.375rem;
+  top: 33.75rem;
 }
 
 .texto h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  margin: 120px 0 60px 0;
+  margin: 7.5rem 0 3.75rem 0;
 }
 
 .texto span {
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .texto p {
-  margin: 46px 0;
-  font-size: 15px;
+  margin: 2.875rem 0;
+  font-size: 0.9375rem;
 }
 
 /* section-3 */
 
 .video {
   width: 100vw;
-  height: 650px;
+  height: 40.625rem;
   align-items: center;
 }
 
@@ -156,14 +150,14 @@
 .video-content {
   height: 100%;
   width: 100%;
-  margin: 80px 65px;
+  margin: 5rem 4.0625rem;
 }
 
 [controls] {
   background: none;
   border: none;
-  height: 570px;
-  width: 1012px;
+  height: 35.625rem;
+  width: 63.25rem;
 }
 
 /* contato-formulario */
@@ -172,7 +166,7 @@
   background-color: brown;
   display: grid;
   grid-template-columns: auto auto;
-  height: 550px;
+  height: 34.375rem;
 }
 
 .formu {
@@ -188,30 +182,30 @@
 .button-4 {
   display: block;
   color: white;
-  width: 400px;
+  width: 25rem;
 }
 .formu-content {
-  margin: 0 115px;
-  padding: 70px 0;
+  margin: 0 7.1875rem;
+  padding: 4.375rem 0;
 }
 
 .formu-content input {
-  width: 400px;
+  width: 25rem;
   border: none;
   background: none;
-  border-bottom: 2px solid white;
+  border-bottom: 0.125rem solid white;
 }
 
 .formu-content label {
-  padding: 30px 0;
+  padding: 1.875rem 0;
 }
 
 .formu-content h3 {
 }
 
 .button-4 {
-  margin: 30px 0;
-  width: 150px;
+  margin: 1.875rem 0;
+  width: 9.375rem;
   display: block;
   float: right;
   background-color: var(--color-primary);
@@ -227,39 +221,39 @@
 
 .info-content {
   color: black;
-  width: 370px;
-  height: 250px;
-  margin: 0 0 0 310px;
-  padding: 60px 0;
+  width: 23.125rem;
+  height: 15.625rem;
+  margin: 0 0 0 19.375rem;
+  padding: 3.75rem 0;
 }
 
 .info-content span {
   display: block;
-  padding: 5px 0;
+  padding: 0.3125rem 0;
 }
 
 .info-content h3:last-of-type {
-  padding-top: 70px;
+  padding-top: 4.375rem;
 }
 
 .info-content h3:first-of-type {
-  padding-bottom: 16px;
+  padding-bottom: 0.1rem;
 }
 
 .info-content span:last-of-type {
-  padding-top: 30px;
+  padding-top: 0.875rem;
   display: flex;
 }
 
 .info-content span i {
   color: var(--color-primary);
-  padding: 0 10px;
+  padding: 0 0.625rem;
 }
 
 /* mapa */
 #gmap_canvas {
-  height: 570px;
+  height: 35.625rem;
 }
 .section-mapa {
-  height: 570px;
+  height: 35.625rem;
 }

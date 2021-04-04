@@ -1,6 +1,6 @@
 /* header */
 
-.header-1 {
+.banner-1 {
   /* height: calc(100vh - 7.75rem); */
   height: 100vh;
   padding: var(--default-padding);
@@ -9,25 +9,19 @@
   position: relative;
 }
 
-.header-image-banner {
+.img-banner-1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
-}
-.banner {
-  float: left;
-  position: relative;
-  right: 350px;
 }
 
-.header-content {
+.banner-content {
   position: absolute;
   top: 6.25rem;
   left: 45vw;
 }
 
-.header-content h6 {
+.banner-content h6 {
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -38,25 +32,53 @@
   color: var(--color-primary);
 }
 
-.header-content h2 {
+.banner-content h2 {
   font-size: 6.25rem;
   font-weight: 700;
   text-transform: uppercase;
   color: white;
   line-height: 6.25rem;
+  padding: 100px 0;
 }
 
-.header-content h2 span {
+.banner-content h2 span {
   color: var(--color-primary);
 }
 
-.header-content h2 span {
+.banner-content h2 span {
   display: block;
 }
 
+.slider-prev {
+  left: 50px;
+  z-index: 1;
+  transform: rotatez(-45deg);
+}
+.slider-next {
+  right: 50px;
+  transform: rotatez(135deg);
+}
 
+.slick-prev:before,
+.slick-next:before {
+  content: "";
+}
+
+.slider-prev,
+.slider-next {
+  border: 5px solid white;
+  width: 40px;
+  height: 40px;
+  border-bottom: unset;
+  border-right: unset;
+  /* border-radius: 5px; */
+  opacity: 0.3;
+}
+.slider-prev:hover,
+.slider-next:hover {
+  opacity: 1;
+}
 /* section-1 */
-
 
 #counter {
   background-color: var(--color-primary);
@@ -85,9 +107,6 @@
 .counter__container li {
   align-items: center;
 }
-
-
-
 
 /* section-2 */
 
@@ -121,11 +140,9 @@
   margin-top: 1rem;
 }
 
-
 .institutional__copy__h4__consec {
   display: block;
 }
-
 
 .institutional p {
   font-size: 1.0625rem;
@@ -135,10 +152,7 @@
   margin-bottom: 2.5rem;
 }
 
-
 /* section-3 */
-
-
 
 .quote {
   background-image: url(../images/parallax.jpg);
@@ -161,7 +175,6 @@
   background-color: white;
   padding: 5.625rem 4.375rem;
 }
-
 
 .quote-list h6 {
   font-size: 0.9375rem;
@@ -188,5 +201,3 @@
   display: block;
   color: var(--color-primary);
 }
-
-

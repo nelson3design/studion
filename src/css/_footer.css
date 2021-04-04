@@ -1,8 +1,5 @@
 /* footer */
 
-
-
-
 .footer {
   background-color: black;
 }
@@ -20,23 +17,20 @@
   background-color: black;
 }
 
-
-
-
 /* formulario */
 
 .formulario {
   display: flex;
   justify-content: stretch;
-  padding: 0 0 0 25px;
+  padding: 0 0 0 1.5625rem;
   align-items: center;
 }
 
 .formulario label {
   color: #fff;
-  font-size: 10px;
+  font-size: 0.625rem;
   text-align: center;
-  line-height: 12px;
+  line-height: 0.75rem;
 }
 
 .formulario label span {
@@ -46,21 +40,22 @@
 }
 
 .formulario input {
-  margin: 0 0 0 25px;
-  height: 40px;
-  width: 250px;
+  margin: 0 0 0 1.5625rem;
+  height: 2.5rem;
+  width: 15.625rem;
   background: var(--color-primary);
-  border: none;
-  letter-spacing: 1px;
+  border: unset;
   font-weight: 900;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 0.8125rem;
+  padding: 0 1.25rem;
+  letter-spacing: 0.125rem;
 }
 
 .formulario button {
   border: none;
-  height: 40px;
-  width: 40px;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .sumit:hover {
@@ -75,7 +70,7 @@
 /* icones */
 
 .icones li {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 1.25rem;
 }
 .icones li a:visited,
 .icones li a:visited {
@@ -89,8 +84,8 @@
 }
 
 #image-icon {
-  width: 33px;
-  height: 33px;
+  width: 2.0625rem;
+  height: 2.0625rem;
 
   border-radius: 50%;
 }
@@ -99,17 +94,15 @@
 
 .fim {
   background-color: black;
-  height: 50px;
+  height: 3.125rem;
 }
 
 .fim p {
   color: white;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 }
-
 
 .fim p span {
   color: var(--color-primary);
 }
-
