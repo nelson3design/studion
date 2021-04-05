@@ -7,6 +7,7 @@
   background-color: #000;
   color: white;
   position: relative;
+  margin-top: -1px;
 }
 
 .img-banner-1 {
@@ -18,7 +19,9 @@
 .banner-content {
   position: absolute;
   top: 6.25rem;
-  left: 45vw;
+  left: 5vw;
+  text-align: center;
+  margin-top: 120px;
 }
 
 .banner-content h6 {
@@ -28,17 +31,47 @@
   color: white;
   letter-spacing: 0.1875rem;
 }
+.banner-content h6 span {
+  display: block;
+}
+
+/* desktop */
+@media screen and (min-width: 1280px) {
+  .banner-content {
+    margin-top: 0;
+  }
+  .banner-content {
+    text-align: start;
+  }
+  .banner-content {
+    position: absolute;
+    top: 6.25rem;
+    left: 45vw;
+  }
+
+  .banner-content h6 span {
+    display: inline;
+  }
+}
+
 .proximo {
   color: var(--color-primary);
 }
 
 .banner-content h2 {
-  font-size: 6.25rem;
+  font-size: 3.25rem;
   font-weight: 700;
   text-transform: uppercase;
   color: white;
-  line-height: 6.25rem;
-  padding: 100px 0;
+  line-height: 3.25rem;
+  padding: 6.25rem 0;
+}
+@media screen and (min-width: 1280px) {
+  .banner-content h2 {
+    font-size: 6.25rem;
+    font-weight: 700;
+    line-height: 6.25rem;
+  }
 }
 
 .banner-content h2 span {
@@ -50,12 +83,12 @@
 }
 
 .slider-prev {
-  left: 50px;
+  left: 3.125rem;
   z-index: 1;
   transform: rotatez(-45deg);
 }
 .slider-next {
-  right: 50px;
+  right: 3.125rem;
   transform: rotatez(135deg);
 }
 
@@ -64,19 +97,21 @@
   content: "";
 }
 
-.slider-prev,
-.slider-next {
-  border: 5px solid white;
-  width: 40px;
-  height: 40px;
-  border-bottom: unset;
-  border-right: unset;
-  /* border-radius: 5px; */
-  opacity: 0.3;
-}
-.slider-prev:hover,
-.slider-next:hover {
-  opacity: 1;
+/* desktop */
+@media screen and (min-width: 1280px) {
+  .slider-prev,
+  .slider-next {
+    border: 0.3125rem solid white;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-bottom: unset;
+    border-right: unset;
+    opacity: 0.3;
+  }
+  .slider-prev:hover,
+  .slider-next:hover {
+    opacity: 1;
+  }
 }
 /* section-1 */
 
@@ -85,23 +120,46 @@
   color: #fff;
   text-transform: uppercase;
 }
-
+/* mobile */
 .counter__container {
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 1fr 1fr 1fr;
   place-items: center;
-  padding: 4.375rem;
+  justify-content: center;
+  padding: 3.125rem 0;
+}
+
+/* desktop */
+@media screen and (min-width: 1280px) {
+  .counter__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: unset;
+    align-items: center;
+  }
 }
 
 .counter__container h3 {
   font-size: 2.1875rem;
-  line-height: 20px;
+  line-height: 1.25rem;
+
+  padding: 1.5625rem 0;
 }
 
-.counter__container h3 small {
+.counter__container small {
   display: block;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 1280px) {
+  .counter__container small {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 0;
+  }
 }
 
 .counter__container li {
@@ -112,18 +170,37 @@
 
 .institutional {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   gap: 3.125rem;
   align-items: center;
-  padding: 4.375rem var(--default-padding);
+  padding: 0 0 50px 0;
+}
+/* desktop */
+@media screen and (min-width: 1280px) {
+  .institutional {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding: 4.375rem var(--default-padding);
+    padding-bottom: 30px;
+  }
+}
+/* tablet */
+@media screen and (min-width: 720px) {
+  .institutional {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 }
 
 .institutional__image {
-  max-width: 570px;
+  max-width: 35.625rem;
 }
 
 .institutional__copy {
   padding: 0 1.875rem;
+  display: block;
+  text-align: center;
 }
 
 .institutional__copy h6 {
@@ -132,16 +209,14 @@
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   margin: 0;
+  text-align: start;
 }
 
 .institutional__copy h4 {
   font-size: 1.5625rem;
   font-weight: 700;
   margin-top: 1rem;
-}
-
-.institutional__copy__h4__consec {
-  display: block;
+  text-align: start;
 }
 
 .institutional p {
@@ -150,44 +225,76 @@
   font-family: "roboto" sans-serif;
   margin-bottom: 0;
   margin-bottom: 2.5rem;
+  text-align: start;
+}
+/* desktop */
+@media screen and (min-width: 1280px) {
+  .institutional__copy {
+    text-align: start;
+  }
 }
 
 /* section-3 */
 
 .quote {
   background-image: url(../images/parallax.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+
   background-repeat: no-repeat;
-  min-height: 80vh;
+  min-height: 50vh;
   background-position: center;
+  background-size: 140%;
+  background-position-y: 0px;
 }
 
 .quote-content {
-  min-height: 80vh;
+  min-height: 86vh;
   display: grid;
-  grid-template-columns: 1fr 0fr;
-  place-items: end;
-  align-items: center;
-}
+  justify-content: end;
+  position: relative;
 
+  align-items: end;
+}
 .quote-list {
   background-color: white;
-  padding: 5.625rem 4.375rem;
+  padding: 100px 5px;
+  margin: 0px 0;
+  width: 100vw;
+  text-align: center;
+}
+/* desktop */
+@media screen and (min-width: 1280px) {
+  .quote-list {
+    background-color: white;
+    padding: 5.625rem 4.375rem;
+    text-align: start;
+    width: 612px;
+    padding: 80px 70px;
+    margin: 120px 0;
+  }
+
+  .quote {
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .quote-list h6 {
+    text-align: center;
+    width: 52ch;
+  }
 }
 
 .quote-list h6 {
   font-size: 0.9375rem;
+  text-align: start;
   font-weight: 400;
   letter-spacing: 0.1875rem;
   text-transform: uppercase;
   line-height: 1.4375rem;
-  max-width: 52ch;
+  max-width: 80ch;
   margin: 0;
 }
 
 .quote-list h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
   letter-spacing: -0.1875rem;
   text-transform: uppercase;
@@ -195,9 +302,15 @@
   line-height: 5rem;
   margin-top: 1.875rem;
   margin-bottom: 1.875rem;
+  text-align: start;
 }
 
 .quote-list h2 span {
   display: block;
   color: var(--color-primary);
+}
+@media screen and (min-width: 1280px) {
+  .quote-list h2 {
+    font-size: 5rem;
+  }
 }
