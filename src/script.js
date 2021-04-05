@@ -11,8 +11,9 @@ $(document).ready(() =>{
 
   $(".slider-principal").slick(slickOptions);
 
+  
   $('button-enviar').on('click', () =>{
-    const email= $('#email').val(),
+    const email= $('#email').val();
     Email.send({
     Host : "smtp.gmail.com",
     Username : "nelson delva",
@@ -25,5 +26,6 @@ $(document).ready(() =>{
   message => alert(message)
 );
   });
+
 
 });
