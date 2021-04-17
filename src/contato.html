@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
     <link rel="stylesheet" href="contato.css">
     <title>studion</title>
 </head>
 <body>
                           <!-- menu -->
-    <nav class="navbar">
+    <nav class="navbar2">
 
         <div class="container navbar__container">    
               <a href="index.html">
@@ -30,6 +32,11 @@
                           <li><a class="active" href="contato.html">Contato</a></li>
                         </ul>
                     </div>
+                    
+                    <button class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    
+                    </button>
         </div>
 
     </nav>
@@ -42,7 +49,7 @@
         
 
         <div class="hero-2 container">
-            <div class="hero__copy">
+            <div class="hero__copy-2">
                 <h2>.contato</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis
@@ -57,16 +64,16 @@
 
                                <!-- main -->
 
-        <section class="section-contato">
-        
 
-               <section class="contato-form">
-
-                  <section>
+               <div class="contato-form">
+ 
+               <section>
                       <div class="info">
 
                         <div class="info-content">
+
                         <h3>Liga pra gente</h3>
+
                           <span>
                                 <i class="fas fa-phone fa-flip-horizontal"></i>
                                 +55 48 3223 - 5769
@@ -84,21 +91,26 @@
 
                             <span>
                               <i class="fas fa-map-marker-alt"></i>
-                               Rua Miguel Daux, 129 - Coqueiros Florianópolis / SC
+                               Rua Miguel Daux, 129 - Coqueiros <span>Florianópolis / SC</span>
                             </span>
                         </div>
+
                      </div>
 
-                    </section>
+                </section> 
 
 
-                   <section>
 
-                       <div class="formu">
 
-                    <form class="formulario-3">
-                        <div class="formu-content">
-                        <h3 class="formul-1">Deixe sua mensagem</h3>
+
+            <section>
+
+                <div class="formu">
+
+                    <form class="formu-content">
+
+
+                        <h3 class="formul">Deixe sua mensagem</h3>
 
                         <label class="formul" for="name">Seu nome</label>
                         <input class="formul" id=name type="text" />
@@ -111,18 +123,20 @@
 
                         <button class="button-1 button-4">enviar</button>
 
-                        </div>
-                    </form>
-                    </div>
+                       
+                        
+                    </form> 
 
-                    </section>
+                </div>
 
             </section>
+
+            </div>
  
-        </section>
+       
 
 
-
+ 
         <section class="section-mapa">
             
                     <iframe width="100%" id="gmap_canvas"
@@ -130,15 +144,9 @@
                         frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                     </iframe>
             
-    </section>
+    </section> 
 
                                <!-- section counter -->
-
-    <main>
-       
-
-
-    </main>
 
 
                                  <!-- footer -->
@@ -195,6 +203,16 @@
                                              </div>
 
     </footer>
+    
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    <script src="./script.js"></script>
 
 
 </body>
