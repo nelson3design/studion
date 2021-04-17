@@ -1,5 +1,16 @@
 $(document).ready(() =>{
 
+  $(".menu-btn").on("click", () =>{
+    $(".list").toggleClass("active");
+
+    $(".menu-btn").find("i").toggleClass("fa-bars");
+    $(".menu-btn").find("i").toggleClass("fa-times");
+    
+    
+  });
+
+ 
+
     const slickOptions = {
         autoplay:true,
         autoplaySpeed: 3000,

@@ -28,7 +28,7 @@
 @import "./css/_galeria.css";
 
 .navbar {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   /* background-color: #000; */
   top: 0;
@@ -36,12 +36,15 @@
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar__container {
   align-items: center;
   height: 7.75rem;
-
-  display: grid;
-  grid-template-columns: auto auto;
+  padding: 0 0.625rem;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -103,19 +106,21 @@
 
 /* menu */
 
-.menu-list {
+.menu-list ul {
   padding-left: 0;
-  justify-self: end;
+  list-style: none;
+  display: none;
 }
 
 .menu-list li a {
   color: white;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .menu-list li {
-  font-size: 0.875rem;
-  padding: 0 0 0 3.125rem;
+  font-size: 1.75rem;
+  /* padding: 0 0 0 3.125rem; */
   text-transform: uppercase;
 }
 
@@ -125,4 +130,47 @@
 
 .menu-list a:hover {
   color: var(--color-primary);
+}
+@media screen and (min-width: 1280px) {
+  .menu-list ul {
+    display: flex;
+  }
+}
+.menu-btn {
+  cursor: pointer;
+  color: white;
+  background-color: unset;
+  border: unset;
+  width: fit-content;
+  font-size: 2rem;
+  z-index: 10;
+  outline: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-btn {
+    display: none;
+  }
+}
+
+.list.active {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  align-items: start;
+  background: #000e;
+  display: grid;
+  place-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-list li {
+    padding: 0 0 0 3.125rem;
+  }
+  .menu-list li {
+    font-size: 0.875rem;
+  }
 }

@@ -6,59 +6,123 @@
   background-color: brown;
   background-image: url(../images/banner-6.png);
   background-size: cover;
-  margin-top: -8rem;
+  margin-top: -16rem;
 }
 
-.hero-3__copy {
+.hero__copy-4 {
   margin: 0;
-  width: 50%;
-
+  width: 100vw;
   position: absolute;
   bottom: 0;
   right: 0;
+  text-align: center;
 }
 
-.hero-3__copy h2 {
+.hero__copy-4 h2 {
   color: var(--color-primary);
-  font-size: 7.5rem;
+  font-size: 70px;
   letter-spacing: -0.3125rem;
   padding: 0;
+  text-align: center;
+}
+.hero__copy-4 h3 {
+  color: var(--color-primary);
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+  padding: 10px 0;
+
+  text-align: center;
 }
 
-.hero-3__copy p {
+.hero__copy-4 p {
   color: #ccc;
   font-size: 0.9375rem;
   line-height: 1.875rem;
-
-  width: 65%;
-  padding: 5rem 0;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 8rem;
 }
+@media screen and (min-width: 1280px) {
+  .hero__copy-4 {
+    margin: 0;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-top: 0;
+    text-align: start;
+  }
+  .hero__copy-4 h3 {
+    color: var(--color-primary);
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    padding: 10px 0;
 
-.hero-3__copy h3 {
-  color: var(--color-primary);
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.0625rem;
-  padding: 0;
+    text-align: start;
+  }
+
+  .hero__copy-4 h2 {
+    color: var(--color-primary);
+    font-size: 5.5rem;
+
+    letter-spacing: -0.3125rem;
+    padding: 0;
+    text-align: start;
+  }
+
+  .hero__copy-4 p {
+    color: #ccc;
+    font-size: 0.9375rem;
+    line-height: 1.875rem;
+
+    width: 65%;
+    padding: 5rem 0;
+  }
 }
 
 /* galerias */
 .galeria-2 {
   width: 100vw;
-  height: 67.1875rem;
+  height: auto;
   background-color: black;
 }
 
 .content-itens {
-  display: flex;
-  flex-direction: row;
-  justify-content: stretch;
-  padding-top: 9.375rem;
-  gap: 1.875rem;
-  height: 46.875rem;
-  width: 71.25rem;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 0;
+}
+.content-itens img {
+  width: 100vw;
 }
 
 .content-itens div li {
-  padding: 1.25rem 0;
+  list-style: none;
+}
+@media screen and (min-width: 1280px) {
+  .galeria-2 {
+    width: 100vw;
+    height: 67.1875rem;
+
+    background-color: black;
+  }
+
+  .content-itens {
+    display: flex;
+
+    justify-content: center;
+
+    padding-top: 9.375rem;
+    gap: 1.875rem;
+    height: 46.875rem;
+    width: 71.25rem;
+  }
+  .content-itens img {
+    width: unset;
+  }
+
+  .content-itens div li {
+    padding: 1.25rem 0;
+    list-style: none;
+  }
 }
