@@ -52,184 +52,73 @@
 
 /* formulario */
 
-.formulario {
-  display: block;
+.form {
+  max-height: 300px;
+  width: 500px;
+  background-color: black;
+  display: grid;
+  grid-template-rows: auto auto;
   text-align: center;
-  padding: 50px 0;
-  padding-top: 60px;
-}
-@media screen and (min-width: 768px) {
-  .formulario {
-    display: block;
-    width: 50vw;
-    text-align: center;
-    padding: 50px 0;
-    padding-top: 60px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .formulario {
-    display: block;
-    width: 50vw;
-    text-align: center;
-    padding: 20px 0;
-    padding-top: 60px;
-  }
+  justify-content: center;
+
+  padding: 40px 0;
 }
 @media screen and (min-width: 1280px) {
-  .formulario {
-    display: flex;
-    width: unset;
-    justify-content: stretch;
-    padding: 0 0 0 1.5625rem;
-    align-items: center;
-  }
-}
-
-.formulario label {
-  color: #fff;
-  font-size: 0.625rem;
-  text-align: center;
-  line-height: 0.75rem;
-}
-
-.formulario label {
-  font-size: 15px;
-  letter-spacing: 2px;
-}
-@media screen and (min-width: 768px) {
-  .formulario label {
-    color: #fff;
-    font-size: 0.625rem;
+  .form {
+    max-height: 300px;
+    width: 500px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto;
     text-align: center;
-
-    line-height: 0.75rem;
-  }
-
-  .formulario label {
-    font-size: 15px;
-    letter-spacing: 2px;
+    justify-content: center;
+    padding: 0;
   }
 }
+.form label {
+  font-size: 14px;
+  color: white;
+  background-color: black;
 
+  font-weight: 100;
+  padding: 4px 20px;
+}
+.form label span {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
 @media screen and (min-width: 1280px) {
-  .formulario label span {
+  .form label span {
     display: block;
-    justify-content: center;
-    margin: 0 auto;
-  }
-
-  .formulario label span {
-    display: block;
-    justify-content: center;
-    margin: 0 auto;
-  }
-  .formulario label {
-    font-size: 12px;
-    letter-spacing: 2px;
+    margin-top: unset;
+    margin-bottom: unset;
   }
 }
 
-.formulario input {
-  height: 39px;
-  width: 15.625rem;
-  background: var(--color-primary);
-  border: unset;
-  font-weight: 900;
+.form input {
+  height: 40px;
+
+  width: 250px;
+  background-color: var(--color-primary);
+  border: none;
+  padding: 15px 0;
+  padding-left: 20px;
+  font-size: 20px;
   text-transform: uppercase;
-  font-size: 0.8125rem;
-  letter-spacing: 0.125rem;
-  margin-top: 20px;
-}
-@media screen and (min-width: 768px) {
-  .formulario input {
-    height: 39px;
-    width: 15.625rem;
-    background: var(--color-primary);
-    border: unset;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 0.8125rem;
-    letter-spacing: 0.125rem;
-    margin-top: 20px;
-  }
 }
 
-@media screen and (min-width: 1280px) {
-  .formulario input {
-    margin: 0 0 0 1.5625rem;
-    height: 2.5rem;
-    width: 15.625rem;
-    background: var(--color-primary);
-    border: unset;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 0.8125rem;
-    padding: 0 1.25rem;
-    letter-spacing: 0.125rem;
-  }
-}
-
-.formulario button {
-  position: relative;
+.form button {
+  height: 40px;
+  width: 40px;
+  padding-bottom: 5.9px;
+  background-color: white;
   border: none;
-  height: 38.8px;
-  width: 39px;
-  margin: 0;
-  right: 6px;
-  top: 4.5px;
-  border: none;
+  margin: 0 -6px;
 }
-
-.button-enviar:hover {
+.form button:hover {
+  background-color: rgb(0, 162, 255);
   cursor: pointer;
-  background-color: rgb(0, 153, 255);
-}
-
-#image:hover {
-  cursor: pointer;
-}
-
-@media screen and (min-width: 320px) {
-  .formulario button {
-    position: relative;
-    border: none;
-    height: 38.8px;
-    width: 39px;
-    margin: 0;
-    right: 6px;
-    top: 5.5px;
-    border: none;
-  }
-}
-@media screen and (min-width: 360px) {
-  .formulario button {
-    top: 4.5px;
-  }
-}
-@media screen and (min-width: 414px) {
-  .formulario button {
-    top: 4px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .formulario button {
-    top: 4px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .formulario button {
-    top: 2.5px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .formulario button {
-    position: unset;
-    border: none;
-    height: 2.5rem;
-    width: 2.5rem;
-    margin: 0;
-  }
 }
 
 /* icones */
