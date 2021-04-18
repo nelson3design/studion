@@ -43,6 +43,13 @@
   padding-top: 1rem;
   padding-bottom: 8rem;
 }
+@media screen and (min-width: 768px) {
+  .hero__copy-3 p {
+    padding: 0 30px;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+  }
+}
 @media screen and (min-width: 1280px) {
   .hero__copy-3 {
     margin: 0;
@@ -77,6 +84,7 @@
     line-height: 1.875rem;
 
     width: 65%;
+
     padding: 5rem 0;
   }
 }
