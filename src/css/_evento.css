@@ -35,6 +35,13 @@
   padding-top: 1rem;
   padding-bottom: 8rem;
 }
+@media screen and (min-width: 768px) {
+  .hero__copy-2 p {
+    padding: 0 30px;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+  }
+}
 @media screen and (min-width: 1280px) {
   .hero__copy-2 {
     margin: 0;
@@ -105,9 +112,39 @@
   text-align: center;
   padding: 0;
 }
-.images-b-1 img {
-  width: 100%;
+@media screen and (min-width: 768px) {
+  .brazuca-1 {
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+  }
+  .brazuca-1 img {
+    padding: 30px;
+    padding-top: 20px;
+  }
 }
+
+@media screen and (min-width: 1280px) {
+  .brazuca-1 {
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: space-between;
+    position: relative;
+
+    place-items: center;
+    text-align: center;
+    padding: 0;
+  }
+  .brazuca-1 img {
+    padding: 0;
+    padding-top: 0;
+  }
+}
+
 .b-1-content h2 {
   font-size: 1.25rem;
   text-transform: uppercase;
@@ -135,6 +172,9 @@
   /* width: 53ch; */
   padding: 0 20px;
 }
+.images-b-1 img {
+  width: 100%;
+}
 
 .brazuca-2 {
   width: 100vw;
@@ -147,6 +187,15 @@
   place-items: center;
   text-align: center;
   padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .brazuca-2 {
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+  }
 }
 
 .brazuca-3 {
@@ -161,6 +210,8 @@
   text-align: center;
   padding: 0;
 }
+@media screen and (min-width: 768px) {
+}
 
 .brazuca-3-1 {
   width: 100vw;
@@ -173,6 +224,15 @@
   place-items: center;
   text-align: center;
   padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .brazuca-3-1 {
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+  }
 }
 
 .b-3-endereco {
@@ -223,6 +283,15 @@
   place-items: center;
   text-align: center;
   padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .brazuca-4 {
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+  }
 }
 
 .bar-1 {
@@ -436,4 +505,7 @@ hr {
     margin: 0 auto;
     background-color: rgb(110, 110, 110);
   }
+}
+.images-b-1 img {
+  width: 100%;
 }

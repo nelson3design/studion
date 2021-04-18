@@ -21,7 +21,7 @@
 .banner-content {
   position: absolute;
   top: 6.25rem;
-  left: 5vw;
+  left: 8vw;
   text-align: center;
 }
 
@@ -34,6 +34,14 @@
 }
 .banner-content h6 span {
   display: block;
+}
+@media screen and (min-width: 768px) {
+  .banner-content {
+    position: absolute;
+    top: 6.25rem;
+    left: 30vw;
+    text-align: center;
+  }
 }
 
 /* desktop */
@@ -135,6 +143,7 @@
   place-items: center;
   justify-content: center;
   padding: 3.125rem 0;
+  text-align: center;
 }
 
 /* desktop */
@@ -144,6 +153,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: unset;
     align-items: center;
+    text-align: start;
   }
 }
 
@@ -182,6 +192,17 @@
   align-items: center;
   padding: 0 0 50px 0;
 }
+@media screen and (min-width: 768px) {
+  .institutional {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 3.125rem;
+    align-items: center;
+    padding-top: 50px;
+  }
+}
 /* desktop */
 @media screen and (min-width: 1280px) {
   .institutional {
@@ -190,13 +211,6 @@
 
     padding: 4.375rem var(--default-padding);
     padding-bottom: 30px;
-  }
-}
-/* tablet */
-@media screen and (min-width: 720px) {
-  .institutional {
-    display: grid;
-    grid-template-columns: auto auto;
   }
 }
 
@@ -208,6 +222,7 @@
   padding: 0 1.875rem;
   display: block;
   text-align: center;
+  padding: 0 120px;
 }
 
 .institutional__copy h6 {
@@ -230,14 +245,32 @@
   font-size: 1.0625rem;
   line-height: 1.6875rem;
   font-family: "roboto" sans-serif;
+
   margin-top: 20px;
   margin-bottom: 2.5rem;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .institutional__copy {
+    text-align: center;
+    padding: 50px;
+  }
+  .institutional p {
+    text-align: center;
+  }
+  .institutional__copy h4 {
+    text-align: center;
+  }
+  .institutional__copy h6 {
+    text-align: center;
+  }
+}
+
 /* desktop */
 @media screen and (min-width: 1280px) {
   .institutional__copy {
     text-align: start;
+    padding: 0;
   }
   .institutional p {
     text-align: start;
@@ -269,6 +302,26 @@
   position: relative;
 
   align-items: end;
+}
+@media screen and (min-width: 320px) {
+  .quote-content {
+    min-height: 90vh;
+  }
+}
+@media screen and (min-width: 360px) {
+  .quote-content {
+    min-height: 90vh;
+  }
+}
+@media screen and (min-width: 411px) {
+  .quote-content {
+    min-height: 85vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .quote-content {
+    min-height: 70vh;
+  }
 }
 .quote-list {
   background-color: white;
@@ -333,6 +386,15 @@
 .quote-list h2 span {
   display: block;
   color: var(--color-primary);
+}
+@media screen and (min-width: 320px) {
+  .quote-list h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .quote-list h6 {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 1280px) {
   .quote-list h2 {
